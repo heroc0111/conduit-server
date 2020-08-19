@@ -3,9 +3,9 @@ const API_BASE_URL = 'https://361ef5e7e1c5.ngrok.io/api';
 const API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmMzhmMGM0M2ZlMThhZWUxNmIwNTU5NyIsInVzZXJuYW1lIjoicXVvZGFpIiwiZXhwIjoxNjAyOTUxNzkzLCJpYXQiOjE1OTc3Njc3OTN9.GfZwa0buja0Au_hmT5Q-zD082mLMQLdk0lDsg6A3Lok";
 
 createArticle();
-// getArticles();
+getArticles();
 
-function getArticles() {
+function getAllArticles() {
 
     axios({
             method: 'get',
